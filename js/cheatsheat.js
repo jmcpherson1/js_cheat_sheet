@@ -1,4 +1,4 @@
-//VARIABLES//////////
+//VARIABLES - a variable is simply a container for a value//////////
 
 //String:
 "Hello World!"
@@ -13,7 +13,7 @@ var week ['m', 't', 'w', 'th', 'f', 's', 'sun']
 var isNight=true;
 
 
-//DEBUGGING (alerts, comments, the console)//////////
+//DEBUGGING (alerts, comments, the console)////////////
 //Alerts: pop up when page loads
 alert("Hello World"); 
 
@@ -27,9 +27,21 @@ console.log("Hello World");
 //DIFFERENT DATA TYPES
 
 
-//Arrays
+//ARRAYS
+//Polymorphic: array that contains different data types
+var array=["Al", -6, "true", ["t", "th"]];
 
-//Testing
+//Multidimensional:
+var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
+
+	// declare your mult-dimensional array
+	var cars = [ ["Porsche", "Camero"], ["Camry", "Prius"] ];
+	// access the first array inside, then the first item inside that array
+	console.log(cars[0][0]);
+	//will return
+	> "Porsche"
+
+//TESTING
 
 //Logic
 
