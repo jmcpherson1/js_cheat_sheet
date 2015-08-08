@@ -25,6 +25,7 @@ console.log("Hello World");
 
 
 //DIFFERENT DATA TYPES
+var array=["Al", -6, "true", ["t", "th"]]; //array contains diff data types
 
 
 //ARRAYS
@@ -45,6 +46,7 @@ var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
 	console.log( week[0][3] );
 	> "Thursday"
 
+
 //TESTING - use a boolean to return true or false
 "stingone" === "sting two";
 >false //using 3 equals signs instead of two also checks the object type
@@ -58,6 +60,8 @@ var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
 5 > 10;	  //Test if one number is greater than another
 >false 
 
+
+//LOGIC
 //IF statement: allows to run code only if a certain test evaluates to true
 if(5>10){
 	console.log("You'll never see this in the console because 5 is not greater than 10");	
@@ -80,6 +84,5 @@ if( z < 10 ){
 	alert( z + " is not greater than 10");
 }
 
-//LOGIC
 
-//Functions
+//FUNCTIONS
