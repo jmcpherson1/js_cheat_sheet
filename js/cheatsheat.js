@@ -41,7 +41,17 @@ var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
 	//will return
 	> "Porsche"
 
-//TESTING
+//TESTING - use a boolean to return true or false
+"stingone" === "sting two";
+>false //using 3 equals signs instead of two also checks the object type
+
+"5"===5;   //Is 5 and 5 the same data type? Then: Is 5 equal to 5?
+>true
+
+5!==5;   //5 is NOT equaled to 5
+>false
+
+
 
 //Logic
 
