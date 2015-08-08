@@ -67,7 +67,7 @@ if(5<10){
 	console.log("But you'll definitely see this");
 }
 
-  //Another Example:
+ //ELSE statement: runs only if the statement in the if statement is false
 var z = 6;
 if( z < 10 ){
 	alert("The value of z is " + z + " and it's less than 10");
