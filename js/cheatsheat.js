@@ -1,4 +1,4 @@
-//VARIABLES
+//VARIABLES//////////
 
 //String:
 "Hello World!"
@@ -13,11 +13,19 @@ var week ['m', 't', 'w', 'th', 'f', 's', 'sun']
 var isNight=true;
 
 
+//DEBUGGING (alerts, comments, the console)//////////
+//Alerts: pop up when page loads
+alert("Hello World"); 
+
+//Comments: render onto the page
+document.getElementById("monitor").innerHTML = "Hi there! :)";
+
+//Console: Access Browser>View>Javascript Console (Cmd+Opt+J)
+console.log("Hello World");
 
 
-//Debugging (alerts, comments, the console)
+//DIFFERENT DATA TYPES
 
-//Different data types
 
 //Arrays
 
