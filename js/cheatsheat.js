@@ -1,5 +1,4 @@
-//VARIABLES - a variable is simply a container for a value//////////
-
+//1.VARIABLES - a variable is simply a container for a value//////////
 //String:
 "Hello World!"
 
@@ -13,7 +12,8 @@ var week ['m', 't', 'w', 'th', 'f', 's', 'sun']
 var isNight=true;
 
 
-//DEBUGGING (alerts, comments, the console)////////////
+
+//2.DEBUGGING (alerts, comments, the console)////////////
 //Alerts: pop up when page loads
 alert("Hello World"); 
 
@@ -24,11 +24,13 @@ document.getElementById("monitor").innerHTML = "Hi there! :)";
 console.log("Hello World");
 
 
-//DIFFERENT DATA TYPES
+
+//3.DIFFERENT DATA TYPES
 var array=["Al", -6, "true", ["t", "th"]]; //array contains diff data types
 
 
-//ARRAYS
+
+//4.ARRAYS////////////////////
 //Polymorphic: array that contains different data types
 var array=["Al", -6, "true", ["t", "th"]];
 
@@ -47,7 +49,8 @@ var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
 	> "Thursday"
 
 
-//TESTING - use a boolean to return true or false
+
+//5.TESTING - use a boolean to return true or false////////////////
 "stingone" === "sting two";
 >false //using 3 equals signs instead of two also checks the object type
 
@@ -61,7 +64,8 @@ var array2=[ ["m", "t"]; ["w", "th"]; ["f", "s"] ["sun"] ];
 >false 
 
 
-//LOGIC
+
+//6.LOGIC/////////////////////////
 //IF statement: allows to run code only if a certain test evaluates to true
 if(5>10){
 	console.log("You'll never see this in the console because 5 is not greater than 10");	
@@ -71,7 +75,9 @@ if(5<10){
 	console.log("But you'll definitely see this");
 }
 
- //ELSE statement: runs only if the statement in the if statement is false
+
+
+ //ELSE statement: runs only if the statement in the if statement is false////////////////
 var z = 6;
 if( z < 10 ){
 	alert("The value of z is " + z + " and it's less than 10");
@@ -85,4 +91,35 @@ if( z < 10 ){
 }
 
 
-//FUNCTIONS
+
+//7.FUNCTIONS - a way to encapsulate code for later use//////////////////
+function sayMyName( personsName ){
+	console.log( "You've entered " + personsName );
+}
+
+sayMyName( "Jamasa");
+
+//
+function returnSomething(){
+	console.log(":)");
+}
+
+returnSomething();
+
+//
+function guessWhichDoor( doorNumber ){
+	if(doorNumber === 1 ){
+		alert("You lost!");
+	}else if( doorNumber === 2){
+		alert("You Won!");
+	}else if( doorNumber ===3){
+		alert("You lost, try again!");
+	}else{
+		alert("Invalid door number");
+	}
+}
+
+guessWhichDoor(1);
+guessWhichDoor(2);
+guessWhichDoor(3);
+guessWhichDoor(10);

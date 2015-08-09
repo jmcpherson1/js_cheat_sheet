@@ -2,10 +2,48 @@
 <html>
 <head>
 	<title>JS Cheat Seat</title>
-	<script src="js/custom.js"></script>	
-</head>
+	<script>
+		function whereToVacation( tripLocation ){
+			console.log( "You're going to: " + tripLocation );
+		}
+		whereToVacation( "Rio" ); 
 
+
+		function whereToVacation( tripLocation ){
+			if(tripLocation === 2 ){
+				alert("You're going to Rio!");
+			}else if( tripLocation === 4){
+				alert("You're going to Paris!");
+			}else if( tripLocation === 5){
+				alert("You're going to Jamaica!");
+			}else{
+				alert("You're going to Cancun!");
+			}
+		}
+
+		whereToVacation(1);
+		whereToVacation(2);
+		whereToVacation(3);
+		whereToVacation(10);
+
+	</script>	
+</head>
 <body>
+
+	You're going to: 
+	<div id="whereToVacation"></div>
+
+	<script>document.getElementById("whereToVacation").innerHTML = ("Rio");</script>
+	<br/>
+	<br/>
+
+	Select a vacation:
+	<br/>
+
+	<input type="button" value="Vacation 1" onClick="whereToVacation(1)"/>
+	<input type="button" value="Vacation 2" onClick="whereToVacation(2)"/>
+	<input type="button" value="Vacation 3" onClick="whereToVacation(3)"/>
+
 
 </body>
 </html>
