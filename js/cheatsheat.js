@@ -28,6 +28,16 @@ console.log("Hello World");
 //3.DIFFERENT DATA TYPES
 var array=["Al", -6, "true", ["t", "th"]]; //array contains diff data types
 
+//Object - similar to an array, but has curly brackets around it, since it’s more like a
+	//dictionary, vs a combination of strings.
+	//has a key, and a value {key: “value”, key: “value”}
+var Russell = { age: "twenty", eyeColor: "blue", weight: 160 };
+	// how to call
+	console.log(Russell.age);
+	//looking up key values in an array: 
+	Object.key(Russell); [“age”, “eyeColor”, “weight”]
+
+
 
 
 //4.ARRAYS////////////////////
